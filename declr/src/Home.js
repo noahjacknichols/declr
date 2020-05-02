@@ -4,6 +4,7 @@
 import React, { Component } from 'react';
 import Grid from '@material-ui/core/Grid';
 import { Paper, Box } from '@material-ui/core';
+import Description from './Description';
 
 
 class Home extends Component {
@@ -15,7 +16,7 @@ class Home extends Component {
                     <Paper >xs</Paper>
                 </Grid>
                 <Grid item xs={8} alignItems="stretch">
-                    <Paper >xs</Paper>
+                    <Description/>
                 </Grid>
                 
             </Grid>
